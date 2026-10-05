@@ -1,0 +1,13 @@
+{
+  "name": "canto-do-zero-ao-pro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Escola de canto pessoal: currículo do zero ao profissional, professor que ouve a sua afinação pelo microfone, teste de extensão e registro de evolução.",
+  "scripts": {
+    "validate": "node tools/validate-curriculum.mjs",
+    "offline": "node tools/check-offline.mjs",
+    "icons": "node tools/make-icons.mjs",
+    "serve": "python -m http.server 8081"
+  }
+}

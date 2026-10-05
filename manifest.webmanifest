@@ -1,0 +1,19 @@
+{
+  "name": "Método Ressoar",
+  "short_name": "Ressoar",
+  "description": "Escola de canto pessoal: currículo do zero ao profissional, professor que ouve a sua afinação pelo microfone, teste de extensão e registro de evolução.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0F1214",
+  "theme_color": "#121518",
+  "categories": ["education", "music"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
